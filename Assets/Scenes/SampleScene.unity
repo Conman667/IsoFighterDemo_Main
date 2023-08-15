@@ -901,8 +901,8 @@ GameObject:
   m_Component:
   - component: {fileID: 554826574}
   - component: {fileID: 554826573}
-  - component: {fileID: 554826575}
   - component: {fileID: 554826572}
+  - component: {fileID: 554826575}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -993,13 +993,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 554826571}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eaadcfacd6e1c50409fb27cbf30cda9c, type: 3}
+  m_Script: {fileID: 11500000, guid: 465de6a129ab9d24b8600092dd330d46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target1: {fileID: 100245398}
-  target2: {fileID: 1597451752}
-  offset: {x: 0, y: 0, z: 1}
-  frameCount: 5
+  player: {fileID: 100245392}
+  enemy: {fileID: 1597451748}
+  offset: 0.5
 --- !u!1 &611515132
 GameObject:
   m_ObjectHideFlags: 0
