@@ -998,7 +998,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 100245392}
   enemy: {fileID: 1597451748}
-  offset: 0.5
+  offset: -1
 --- !u!1 &611515132
 GameObject:
   m_ObjectHideFlags: 0
